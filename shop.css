@@ -1,0 +1,123 @@
+.navbar-content {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-content .Logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+}
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navItem {
+  padding: 10px 15px;
+}
+.navBar {
+  position: sticky;
+  top: 0px;
+}
+.Container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.heroSection {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Black-Backgrounds-Free-Download.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  background-attachment: fixed;
+}
+.Pageheader {
+  font-size: 90px;
+  font-weight: 700;
+  margin: 0px;
+}
+.first-section {
+  margin: 20px 0;
+}
+.section1 {
+  height: fit-content;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  width: 100%;
+  margin: 20px;
+  gap: 20px;
+}
+.itemname {
+  font-size: 20px;
+  margin: 0px;
+}
+.price {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.item img {
+  width: 100%;
+  height: 400px;
+}
+.footer {
+  background-color: rgb(68, 64, 64);
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  color: white;
+}
+.section-parent {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  height: 400px;
+  border: 1px solid grey;
+}
+.hor-line {
+  width: 100%;
+  border: 1px solid grey;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: rgb(213, 173, 173);
+  color: rgb(198, 76, 96);
+}
+a:hover {
+  color: rgb(198, 76, 96);
+}
+a {
+  text-decoration: none;
+}

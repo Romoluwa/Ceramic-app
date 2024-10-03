@@ -1,0 +1,395 @@
+.navbar-content {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-content .Logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+}
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navItem {
+  padding: 10px 15px;
+}
+.navBar {
+  position: sticky;
+  top: 0px;
+}
+.Container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.heroSection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Black-Backgrounds-Free-Download.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  background-attachment: fixed;
+}
+.Pageheader {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px;
+}
+.page-subheader {
+  font-size: 25px;
+  font-weight: 500;
+  width: 50%;
+  text-align: center;
+}
+.btn {
+  background-color: rgb(198, 76, 96);
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  border-radius: 8px;
+}
+.section1 {
+  height: 100vh;
+}
+.header1 {
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  width: 100%;
+  /* margin: 20px; */
+  gap: 20px;
+}
+.itemname {
+  font-size: 20px;
+  margin: 0px;
+}
+.price {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.item img {
+  width: 100%;
+  height: 400px;
+}
+.section2 {
+  background-color: rgb(222, 213, 213);
+  height: 100vh;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.p1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.contentparent {
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.contentgrid {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+.contentgrid img {
+  width: 100%;
+  height: 100%;
+}
+.contentgrid .image1 {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+.section3 {
+  background-color: white;
+  height: 100vh;
+}
+.Workshop-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 100%;
+}
+.Workshop {
+  width: 100%;
+}
+.Workshop-parent img {
+  width: 100%;
+  /* height: 70%; */
+}
+.p2 {
+  font-size: 50px;
+  margin: 0px;
+}
+.section4 {
+  background-color: rgb(175, 170, 170);
+  height: 100vh;
+}
+.employees {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.employee img {
+  border-radius: 9999px;
+  width: 100px;
+  height: 100px;
+}
+.employee-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 20px;
+}
+.header2 {
+  font-size: 50px;
+  text-align: center;
+}
+.p3 {
+  font-size: 30px;
+}
+/* .grid-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+  width: 100%;
+}
+.GI1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  width: 100%;
+}
+ .GI2 {
+  grid-column: 3/5;
+  grid-row: 1/2;
+} 
+.grid-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+.section5 {
+  height: 100vh;
+}
+.GIP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: red;
+} */
+.section5 {
+  height: 100vh;
+}
+.GIP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.grid-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+  gap: 20px;
+}
+.grid-items img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.GD1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  width: 100%;
+}
+.GD2 {
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+.section6 {
+  background-image: url("https://tse2.mm.bing.net/th?id=OIP.9MeQ_H8YEptyfBt_x8Z53QHaEK&pid=Api&P=0&h=220");
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ourStory {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  width: 40%;
+}
+
+.p4 {
+  font-size: 40px;
+}
+.footer {
+  background-color: rgb(68, 64, 64);
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  color: white;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: rgb(213, 173, 173);
+  color: rgb(198, 76, 96);
+}
+a:hover {
+  color: rgb(198, 76, 96);
+}
+a {
+  text-decoration: none;
+}
+/* Styles for Romoluwa's tablet  */
+@media screen and (max-width: 1024px) {
+  .navbar-content .Logo {
+    width: 30px;
+    height: 30px;
+  }
+  .Container {
+    width: 95%;
+  }
+  .items {
+    flex-direction: column;
+  }
+  .section1 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section2 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section3 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section4 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section5 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section6 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .p1 {
+    font-size: 25px;
+  }
+  .p2 {
+    font-size: 25px;
+  }
+  .p3 {
+    font-size: 25px;
+  }
+  .p4 {
+    font-size: 25px;
+  }
+}
+/* styles for mobile phones */
+@media screen and (max-width: 450px) {
+  .navbar-content .Logo {
+    width: 20px;
+    height: 20px;
+  }
+  .navItems {
+    display: none;
+  }
+  .navbar-content {
+    padding: 20px;
+  }
+  .contentparent {
+    flex-direction: column;
+  }
+  .Workshop-parent {
+    flex-direction: column;
+  }
+  .footer-content {
+    grid-template-columns: auto auto;
+  }
+  .Workshop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .employees {
+    flex-direction: column;
+  }
+  .ourStory {
+    align-items: center;
+    width: 100%;
+  }
+  .Pageheader {
+    font-size: 20px;
+  }
+  .page-subheader {
+    font-size: 15px;
+  }
+  .btn {
+    font-size: 10px 15px;
+  }
+}

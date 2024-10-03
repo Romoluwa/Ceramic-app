@@ -1,0 +1,207 @@
+.navbar-content {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-content .Logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+}
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navItem {
+  padding: 10px 15px;
+}
+.navBar {
+  position: sticky;
+  top: 0px;
+}
+.Container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.heroSection {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Black-Backgrounds-Free-Download.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  background-attachment: fixed;
+}
+.Pageheader {
+  font-size: 90px;
+  font-weight: 700;
+  margin: 0px;
+}
+.btn {
+  background-color: rgb(198, 76, 96);
+  color: white;
+  padding: 20px;
+  font-size: 10px 25px;
+  width: 200px;
+  border: none;
+  border-radius: 8px;
+}
+.bt {
+  color: rgb(198, 76, 96);
+  padding: 20px;
+  font-size: 10px 25px;
+  width: 200px;
+  border-radius: 8px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 2px solid rgb(198, 76, 96);
+}
+.section1 {
+  background-color: white;
+  height: 100vh;
+}
+.Workshop-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 100%;
+  padding: 20px;
+}
+.Workshop {
+  width: 100%;
+}
+.Workshop-parent img {
+  width: 100%;
+}
+
+.p2 {
+  font-size: 50px;
+  margin: 0px;
+}
+.footer {
+  background-color: rgb(68, 64, 64);
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-content: center;
+  width: 100%;
+  justify-content: space-evenly;
+  color: white;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: rgb(213, 173, 173);
+  color: rgb(198, 76, 96);
+}
+a:hover {
+  color: rgb(198, 76, 96);
+}
+a {
+  text-decoration: none;
+}
+/* Styles for Romoluwa's tablet  */
+@media screen and (max-width: 1024px) {
+  .navbar-content .Logo {
+    width: 30px;
+    height: 30px;
+  }
+  .Container {
+    width: 95%;
+  }
+  .items {
+    flex-direction: column;
+  }
+  .section1 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section2 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section3 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section4 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section5 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .section6 {
+    height: fit-content;
+    padding: 20px 0px;
+  }
+  .p1 {
+    font-size: 25px;
+  }
+  .p2 {
+    font-size: 25px;
+  }
+  .p3 {
+    font-size: 25px;
+  }
+  .p4 {
+    font-size: 25px;
+  }
+}
+/* styles for mobile phones */
+@media screen and (max-width: 450px) {
+  .navbar-content .Logo {
+    width: 20px;
+    height: 20px;
+  }
+  .navItems {
+    display: none;
+  }
+  .navbar-content {
+    padding: 20px;
+  }
+  .contentparent {
+    flex-direction: column;
+  }
+  .Workshop-parent {
+    flex-direction: column;
+  }
+  .footer-content {
+    grid-template-columns: auto auto;
+  }
+  .Workshop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .employees {
+    flex-direction: column;
+  }
+  .ourStory {
+    align-items: center;
+    width: 100%;
+  }
+  .Pageheader {
+    font-size: 20px;
+  }
+  .page-subheader {
+    font-size: 15px;
+  }
+  .btn {
+    font-size: 10px 15px;
+  }
+}
